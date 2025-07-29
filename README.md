@@ -114,7 +114,7 @@ A Directed Graphical Model (Bayesian Network - BN), on the other hand, can help 
 #### 2. Analysis using BN
 
 <p align="center">
-  <img src="final_model.png" alt="Final Model" width="400"/>
+  <img src="final_model.png" alt="Final Model" width="300"/>
 </p>
 
 - `rent` is directly related to the property's area (`area`), year of construction (  `year_group`), and the presence of high-quality bathroom and upscale kitchen equipment (  `bathextra` and `upkitchen`). The remaining factors are indirectly related to the `rent` through these direct factors. 
