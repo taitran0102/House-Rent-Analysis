@@ -112,6 +112,11 @@ A Directed Graphical Model (Bayesian Network - BN), on the other hand, can help 
   - Finally, `area` and number of rooms (`rooms`) have a positive linear correlation with `rent`, meaning that `rent` tends to increase as these two variables increase. Meanwhile, the correlation between year of construction (`yearc`) and `rent` is quite weak.
 
 #### 2. Analysis using BN
+
+<p align="center">
+  <img src="final_model.png" alt="Final Model" width="400"/>
+</p>
+
 - `rent` is directly related to the property's area (`area`), year of construction (  `year_group`), and the presence of high-quality bathroom and upscale kitchen equipment (  `bathextra` and `upkitchen`). The remaining factors are indirectly related to the `rent` through these direct factors. 
 
 - Once the direct factors are known, the indirect ones become conditionally independent of `rent`, i.e., they no longer affect its probability
